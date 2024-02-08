@@ -1,0 +1,47 @@
+2:52 PM 4/24/2022
+Start new website for softcygnus step by step what team is doing on webstie 
+1 - we install react js on server 
+2 - Add navbar using with npm react install router-dom
+ <div>
+      {/* A "layout route" is a good place to put markup you want to
+          share across all the pages on your site, like navigation. */}
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/About">About</Link>
+          </li>
+          <li>
+            <Link to="/Service">Sevice</Link>
+          </li>
+          <li>
+            <Link to="/Contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <hr />
+
+      {/* An <Outlet> renders whatever child route is currently active,
+          so you can think about this <Outlet> as a placeholder for
+          the child routes we defined above. */}
+      <Outlet />
+    </div>
+
+<div className='container-fluid nav-bg'>
+        <div className='row'>
+          <div className='col-10 mx-auto'>
+
+          </div>
+        </div>
+      </div>
+<div class="blue-btn">
+                    <a class="first-link" href="">
+                      Get Started
+                    </a>
+                    <a href="">
+                    Learn More
+                    </a>
+                  </div>

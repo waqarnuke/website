@@ -1,0 +1,38 @@
+.navbar {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 1.9rem !important;
+    color: #2874A6;
+    
+  }
+  
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show>.nav-link{
+  color: #2874A6;
+  }
+  .navbar a {
+    font-size: 1.3rem !important;
+    text-transform: capitalize;
+  }
+  .active {
+    font-weight: bold;
+    border-bottom: 1px solid #2874A6;
+  }
+  
+  .navbar a:hover { 
+    color: #2874A6;
+  }
+  
+  @media(max-width:991px) {
+    .navbar-brand {
+      font-size: 1.5rem !important;
+    }
+  
+    .active {
+      font-weight: bold;
+      border-bottom: none;
+    }
+  }
+  
