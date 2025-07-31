@@ -12,16 +12,17 @@ const Service = () => {
         <div className='row'>
           <div className='col-10 mx-auto'>
             <div className='row gy-4'>
-               {
-                 Sdata.map((val,index) => {
-                   return <Card 
-                   key={index}
-                   imgSrc={val.image}
-                   titile={val.name}
-                   description={val.description} 
-                   />
-                 })
-               }
+              {
+                Sdata.map((val,index) => {
+                  return <Card 
+                  key={index}
+                  imgSrc={val.image}
+                  titile={val.name}
+                  description={val.description} 
+                  list={val.list}
+                  />
+                })
+              }
             </div>
           </div>
         </div>

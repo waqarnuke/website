@@ -12,14 +12,29 @@ const Common = (props) => {
                     <div className="p-lg-5 my-5">
                       <h4 className="display-4 fw-normal">{props.name}</h4>
                       <p className="">
-                      SoftCygnus limited company and is a leading provider of business solutions in the field of Feedback Systems, Auto Identification and Data Capturing Systems (AIDCS) using various data capturing modules/modes, such as Barcoding, RFID, Biometric, Magnetic Swipe readers, IC Chip readers, NFC, WiFi, Contactless readers technologies in various Region.
-                        </p>
+                        SoftCygnus Limited is a leading provider of advanced business solutions, specializing in Feedback Systems, Auto Identification, and Data Capturing Systems (AIDCS). We leverage a variety of cutting-edge technologies such as Barcoding, RFID, Biometric, Magnetic Stripe Readers, IC Chip Readers, NFC, WiFi, and Contactless Reader Technologies to deliver reliable and scalable solutions across different regions.
+                      </p>
                         <p>
-                          SoftCygnus combines world-class products from industry leaders with its own professional expertise to provide solutions across industry sectors that include Hospitality, Travel, Retail, Warehousing & Distribution, Manufacturing, Transportation & Logistics.
+                          At SoftCygnus, we combine world-class products from industry-leading manufacturers with our technical expertise to deliver customized solutions across various industry sectors including:
                         </p>
+                        <ul>
+                          <li>Hospitality</li>
+                          <li>Travel & Tourism</li>
+                          <li>Retail</li>
+                          <li>Warehousing & Distribution</li>
+                          <li>Manufacturing</li>
+                          <li>Transportation & Logistics</li>
+                        </ul>
                         <p>
-                        SoftCygnus also provides various mobile device based solutions as mentioned below. Here is a list of mobile device Products & Solutions, which can easily be configured to meet the Clients’ business needs and at the same time not limited to.
+                        In addition to fixed infrastructure systems, we offer a wide range of mobile device-based solutions that can be easily configured to meet specific business requirements.
+
+To keep up with emerging technologies, SoftCygnus also provides AI-driven solutions such as:
                         </p>
+                        <ul>
+                          <li><b>AI Chatbots </b>for customer support and automation</li>
+                          <li><b>Virtual Agents</b> for intelligent query handling</li>
+                          <li><b>AI Integration Services</b> to enhance workflows, improve response times, and reduce manual effort</li>
+                        </ul>
                       <NavLink className="btn btn-outline-secondary" to={props.visit}>{props.btnname}</NavLink>
                     </div>
                     <div className="product-device shadow-sm d-none d-md-block"></div>

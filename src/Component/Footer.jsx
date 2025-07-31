@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="media-container-row align-center">
             <div className="col-12">
                 <p className="mbr-text mbr-regular mb-0">
-                    © Copyright 2024 Soft Cygnus – All Rights Reserved
+                    © Copyright 2025 Soft Cygnus – All Rights Reserved
                 </p>
             </div>
         </div>

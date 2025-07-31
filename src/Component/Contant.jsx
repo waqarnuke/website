@@ -1,6 +1,6 @@
 import React from 'react';
 import Service from './Service';
-import {AiOutlineHtml5, AiOutlineDesktop,AiOutlineRocket,AiOutlineAreaChart } from 'react-icons/ai';
+import {AiOutlineHtml5, AiOutlineDesktop,AiOutlineRocket,AiOutlineAreaChart,AiOutlineRobot } from 'react-icons/ai';
 import { BsMicrosoft } from "react-icons/bs";
 import { SiGooglemybusiness } from "react-icons/si";
 import web1 from '../Images/about-img.jpg';
@@ -19,7 +19,7 @@ const Contant = () => {
       <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
         <h1 className="display-2 fw-bold lh-1">We Help To Grow Your Business</h1>
         <p className="lead">
-        SOFT CYGNUS is a leading provider of business solutions in the field of Feedback Systems, Auto Identification and Data Capturing Systems (AIDCS) using various data capturing modules/modes, such as Barcoding, RFID, Biometric, Magnetic Swipe readers, IC Chip readers, NFC, WiFi, Contactless readers technologies in various region.
+          SOFT CYGNUS is a leading provider of intelligent business solutions, specializing in Feedback Systems, Auto Identification, and Data Capturing Systems (AIDCS). We integrate advanced technologies such as Barcoding, RFID, Biometric, Magnetic Stripe Readers, IC Chip Readers, NFC, WiFi, and Contactless Modules with AI-powered tools like Chatbots and Virtual Agents to help businesses automate processes, enhance customer experience, and scale efficiently across regions
         </p>
         <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
           {/* <button type="button" className="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
@@ -67,6 +67,12 @@ const Contant = () => {
         </div>
         <div className="row row-cols-1 row-cols-md-2">
           
+          <Service 
+            title={"Custom AI Integration"} 
+            ico={<AiOutlineRobot 
+            className="text-light fs-1"/>}
+            description={"Enhance your customer engagement with intelligent AI-driven chatbots and smart assistants. At SoftCygnus, we integrate advanced AI models into your websites, applications, or internal tools to automate conversations, provide instant support, and deliver personalized user experiences"}  
+          />
           <Service 
             title={"Reporting"} 
             ico={<AiOutlineAreaChart 

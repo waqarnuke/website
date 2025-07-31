@@ -10,6 +10,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import {Navbar,Strap,Footer} from './Component';
 import {Home, About, Contact, Service } from './Pages';
+import ScrollToTop from './core/ScrollToTop';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
     <div className='app'>
       <div className='gradient__bg'>
       <Strap/>
+       <ScrollToTop />
       <Routes>
       <Route path="/" element={<Navbar />}>
        <Route index element={<Home />} />
