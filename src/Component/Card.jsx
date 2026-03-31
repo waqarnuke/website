@@ -1,31 +1,39 @@
-import React from 'react'
-// import { NavLink } from 'react-router-dom'
+import React from 'react';
 
-const Card = (props) => {
+const Card = ({ icon, title, description, features }) => {
   return (
-    <>
     <div className='col-md-4 col-sm-6 col-12'>
-  <div className="card h-100">
-    <img src={props.imgSrc} className="card-img-top" alt="..." />
-    <div className="card-body">
-      <h5 className="card-title">{props.titile}</h5>
-      <p className="card-text">{props.description}</p>
-      {props.list && (
-        <ul className="list-group list-group-flush">
-          <h5 className='pt-3'>What We Offer:</h5>
-          <li className="list-group-item">Real-time conversational AI integration</li>
-          <li className="list-group-item">Multi-language chatbot support</li>
-          <li className="list-group-item">Custom workflow automation with AI</li>
-          <li className="list-group-item">Multi-language chatbot support</li>
-          <li className="list-group-item">Integration with your existing systems or platforms</li>
-        </ul>
-      )}
+      <div className="card h-100 border-0 shadow-sm service-card">
+        
+        <div className="card-body text-start p-4">
+
+          {/* Icon */}
+          <div className="mb-3 service-icon">
+            {icon}
+          </div>
+
+          {/* Title */}
+          <h5 className="card-title fw-bold">{title}</h5>
+
+          {/* Description */}
+          <p className="card-text text-muted">{description}</p>
+
+          {/* Features List (Optional) */}
+          {features && (
+            <div className="mt-3 text-start">
+              <h6 className='fw-bold'>What We Offer:</h6>
+              <ul className="list-unstyled small text-muted">
+                {features.map((item, index) => (
+                  <li key={index} className="mb-1">✔ {item}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  );
+};
 
-    </>
-  )
-}
-
-export default Card
+export default Card;

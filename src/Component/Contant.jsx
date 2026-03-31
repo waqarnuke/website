@@ -1,120 +1,199 @@
-import React from 'react';
-import Service from './Service';
-import {AiOutlineHtml5, AiOutlineDesktop,AiOutlineRocket,AiOutlineAreaChart,AiOutlineRobot } from 'react-icons/ai';
+import React from "react";
+import Service from "./Service";
+import {
+  AiOutlineHtml5,
+  AiOutlineDesktop,
+  AiOutlineRocket,
+  AiOutlineAreaChart,
+  AiOutlineRobot,
+  AiOutlineCustomerService,
+  AiOutlineSearch,
+} from "react-icons/ai";
 import { BsMicrosoft } from "react-icons/bs";
 import { SiGooglemybusiness } from "react-icons/si";
-import web1 from '../Images/about-img.jpg';
+import web1 from "../Images/about-img.jpg";
 
 const Contant = () => {
   return (
     <>
-{/* <Common 
+      {/* <Common 
       name='Welcome to Soft Cygnus' 
       imgsrc={web} 
       visit='/Service'
       btnname="Comming Soon" />
        */}
-       <div className="container my-5">
-    <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-      <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
-        <h1 className="display-2 fw-bold lh-1">We Help To Grow Your Business</h1>
-        <p className="lead">
-          SOFT CYGNUS is a leading provider of intelligent business solutions, specializing in Feedback Systems, Auto Identification, and Data Capturing Systems (AIDCS). We integrate advanced technologies such as Barcoding, RFID, Biometric, Magnetic Stripe Readers, IC Chip Readers, NFC, WiFi, and Contactless Modules with AI-powered tools like Chatbots and Virtual Agents to help businesses automate processes, enhance customer experience, and scale efficiently across regions
-        </p>
-        <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-          {/* <button type="button" className="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+      <div className="container my-5">
+        <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 className="display-2 fw-bold lh-1">
+              We Help To Grow Your Business
+            </h1>
+            <p className="lead">
+              SOFT CYGNUS is a leading provider of intelligent business
+              solutions, specializing in Feedback Systems, Auto Identification,
+              and Data Capturing Systems (AIDCS). We integrate advanced
+              technologies such as Barcoding, RFID, Biometric, Magnetic Stripe
+              Readers, IC Chip Readers, NFC, WiFi, and Contactless Modules with
+              AI-powered tools like Chatbots and Virtual Agents to help
+              businesses automate processes, enhance customer experience, and
+              scale efficiently across regions
+            </p>
+            <div className="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              {/* <button type="button" className="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
           <button type="button" className="btn btn-outline-secondary btn-lg px-4">Default</button> */}
+            </div>
+          </div>
+          <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img className="rounded-lg-3" src={web1} alt="" width="720" />
+          </div>
         </div>
       </div>
-      <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img className="rounded-lg-3" src={web1} alt="" width="720" />
-      </div>
-    </div>
-  </div>
 
-       <section className="container  p-5 mb-4 rounded-3 bg-light">
+      <section className="container  p-5 mb-4 rounded-3 bg-light">
         <div className="row pt-xl-3">
-        <div className="col-lg-4 text__justify">
-           <h2 className='text-center'>Consultancy</h2>
-           <p>
-           At SoftCygnus Technologies, we’re obsessed with technology.Its power to change everything. Technology fuels our passion and commitment to helping organizations do what they set out to. When we engage, we bring fresh ideas that help you galvanize your performance. Refine your strategy. Spark new energy. The future—and how we get there—depends on those who build, connect, create and transform our world. The most successful and innovative businesses are already doing it, and we’re skilled experts at bringing in the teams and support needed to thrive.
-           </p>
-         </div>
-         <div className="col-lg-4 text__justify">
-           <h2 className='text-center'>Responsibility</h2>
+          <div className="col-lg-4 text__justify">
+            <h2 className="text-center">Consultancy</h2>
             <p>
-            At Soft-Cygnus, we offer online recruitment solutions, that are tailor made to suit each customers business requirements and are scalable enough to fit into the existing business applications. Our solutions include a vacancy tracking system, role analysis, and applicant tracking software that work in tandem with one another to bring out an approach that results in a maximum talent-recruit match.
+              At SoftCygnus Technologies, we’re obsessed with technology.Its
+              power to change everything. Technology fuels our passion and
+              commitment to helping organizations do what they set out to. When
+              we engage, we bring fresh ideas that help you galvanize your
+              performance. Refine your strategy. Spark new energy. The
+              future—and how we get there—depends on those who build, connect,
+              create and transform our world. The most successful and innovative
+              businesses are already doing it, and we’re skilled experts at
+              bringing in the teams and support needed to thrive.
             </p>
-         </div>
-         <div className="col-lg-4 text__justify">
-           <h2 className='text-center'>Talent Management</h2>
-           <p>
-            The global talent management services of Softcygnus encompass an entire lifecycle of recruitment that includes posting job description ads, screening and short listing resumes, conducting first level interviews on phone and in person, reference checks, background scrutiny, past employment scrutiny, training and grooming sessions and personality analysis. Our clients are offered a wholistic approach in which they can expect to completely delegate the entire recruitment process to our experts and enjoy all the benefits of recruiting the right talent and avoiding expensive mistakes.
+          </div>
+          <div className="col-lg-4 text__justify">
+            <h2 className="text-center">Responsibility</h2>
+            <p>
+              At Soft-Cygnus, we offer online recruitment solutions, that are
+              tailor made to suit each customers business requirements and are
+              scalable enough to fit into the existing business applications.
+              Our solutions include a vacancy tracking system, role analysis,
+              and applicant tracking software that work in tandem with one
+              another to bring out an approach that results in a maximum
+              talent-recruit match.
             </p>
-         </div> 
+          </div>
+          <div className="col-lg-4 text__justify">
+            <h2 className="text-center">Talent Management</h2>
+            <p>
+              The global talent management services of Softcygnus encompass an
+              entire lifecycle of recruitment that includes posting job
+              description ads, screening and short listing resumes, conducting
+              first level interviews on phone and in person, reference checks,
+              background scrutiny, past employment scrutiny, training and
+              grooming sessions and personality analysis. Our clients are
+              offered a wholistic approach in which they can expect to
+              completely delegate the entire recruitment process to our experts
+              and enjoy all the benefits of recruiting the right talent and
+              avoiding expensive mistakes.
+            </p>
+          </div>
         </div>
       </section>
       <section className="bg-secondary pb-md-2 pb-lg-5">
-      <div className="container pb-4 pt-5">
-        <h2 className="h1 text-center text-md-start mb-lg-4 pt-1 pt-md-4">Our Services</h2>
-        <div className="row align-items-center pb-5 mb-lg-2">
+        <div className="container pb-4 pt-5">
+          <h2 className="h1 text-center text-md-start mb-lg-4 pt-1 pt-md-4">
+            Our Services
+          </h2>
+          <div className="row align-items-center pb-5 mb-lg-2">
             <div className="col-md-8 text-center text-md-start">
-              <p className="fs-lg text-muted mb-md-0">We are focused on helping brands grow through digital transformation services. We bring real solutions to each client’s problems through a deep understanding of their market, solution, and vision.</p>
+              <p className="fs-lg text-muted mb-md-0">
+                We are focused on helping brands grow through digital
+                transformation services. We bring real solutions to each
+                client’s problems through a deep understanding of their market,
+                solution, and vision.
+              </p>
             </div>
             <div className="col-md-4 d-flex justify-content-center justify-content-md-end">
               {/* <a href="services-v1.html" className="btn btn-outline-primary btn-lg">See all services</a> */}
             </div>
+          </div>
+          <div className="row row-cols-1 row-cols-md-2">
+            <Service
+              title={"Custom AI Integration"}
+              ico={<AiOutlineRobot className="text-light fs-1" />}
+              description={
+                "Enhance your customer engagement with intelligent AI-driven chatbots and smart assistants. At SoftCygnus, we integrate advanced AI models into your websites, applications, or internal tools to automate conversations, provide instant support, and deliver personalized user experiences"
+              }
+            />
+            <Service
+              title={"Reporting"}
+              ico={<AiOutlineAreaChart className="text-light fs-1" />}
+              description={
+                "SoftCygnus presents to you, its custom-made reporting solutions that makes the tough task of handling and representing company data many times easier than ever."
+              }
+            />
+            <Service
+              title={".Net Technologies"}
+              ico={<BsMicrosoft className="text-light fs-1" />}
+              description={
+                "Desktop Applications, Web Applications, Mobile and Cross Platform Applications."
+              }
+            />
+            <Service
+              title={"Database Development"}
+              ico={<AiOutlineDesktop className="text-light fs-1" />}
+              description={
+                "The experts at Softcygnus can offer you various solutions for developing robust databases that work with total assurance of integrity and data security. We use the following relational database management systems such as MS SQL, Oracle, MySQL, MangoDB."
+              }
+            />
+            <Service
+              title={"Trainings"}
+              ico={<AiOutlineRocket className="text-light fs-1" />}
+              description={
+                "Customized trainings and courses, Seminars/Webinars, E-learning, Mentoring, Curriculum design."
+              }
+            />
+            <Service
+              title={"Business Analyst"}
+              ico={<SiGooglemybusiness className="text-light fs-1" />}
+              description={
+                "Business analysts use data to form business insights and recommend changes in businesses and other organizations. Business analysts can identify issues in virtually any part of an organization, including IT processes, organizational structures, or staff development."
+              }
+            />
+            <Service
+              title={"User Experience"}
+              ico={<AiOutlineHtml5 className="text-light fs-1" />}
+              description={
+                "Softcygnus experts creating a product that is easy to use, easy to interact with, and accessible for the users while putting their feelings first, based on a long-term and short-term scale."
+              }
+            />
+            <Service
+              title={"IT Help Desk Support"}
+              ico={<AiOutlineCustomerService className="text-light fs-1" />}
+              description={
+                "Ensure smooth business operations with our reliable IT Help Desk Support services. SoftCygnus provides proactive monitoring, troubleshooting, and technical assistance to resolve hardware, software, and network issues quickly. Our support team helps minimize downtime, improve productivity, and deliver seamless IT experiences for your organization."
+              }
+            />
+            <Service
+              title={"Search Engine Optimization (SEO)"}
+              ico={<AiOutlineSearch className="text-light fs-1" />}
+              description={
+                "Boost your online visibility and attract more customers with our expert SEO services. SoftCygnus optimizes your website with targeted keywords, technical improvements, on-page and off-page strategies to improve search engine rankings. We help drive organic traffic, increase brand awareness, and generate quality leads for your business."
+              }
+            />
+          </div>
         </div>
-        <div className="row row-cols-1 row-cols-md-2">
-          
-          <Service 
-            title={"Custom AI Integration"} 
-            ico={<AiOutlineRobot 
-            className="text-light fs-1"/>}
-            description={"Enhance your customer engagement with intelligent AI-driven chatbots and smart assistants. At SoftCygnus, we integrate advanced AI models into your websites, applications, or internal tools to automate conversations, provide instant support, and deliver personalized user experiences"}  
-          />
-          <Service 
-            title={"Reporting"} 
-            ico={<AiOutlineAreaChart 
-            className="text-light fs-1"/>}
-            description={"SoftCygnus presents to you, its custom-made reporting solutions that makes the tough task of handling and representing company data many times easier than ever."}  
-          />
-          <Service 
-            title={".Net Technologies"} ico={<BsMicrosoft className="text-light fs-1"/>}
-            description={"Desktop Applications, Web Applications, Mobile and Cross Platform Applications."}
-          />
-          <Service 
-            title={"Database Development"} 
-            ico={<AiOutlineDesktop  className="text-light fs-1"/>}
-            description={"The experts at Softcygnus can offer you various solutions for developing robust databases that work with total assurance of integrity and data security. We use the following relational database management systems such as MS SQL, Oracle, MySQL, MangoDB."} 
-          />
-          <Service 
-            title={"Trainings"} 
-            ico={<AiOutlineRocket className="text-light fs-1"/>}
-            description={"Customized trainings and courses, Seminars/Webinars, E-learning, Mentoring, Curriculum design."}
-          />
-          <Service 
-            title={"Business Analyst"} 
-            ico={<SiGooglemybusiness className="text-light fs-1"/>}
-            description={"Business analysts use data to form business insights and recommend changes in businesses and other organizations. Business analysts can identify issues in virtually any part of an organization, including IT processes, organizational structures, or staff development."}
-          />
-          <Service 
-            title={"User Experience"} 
-            ico={<AiOutlineHtml5 className="text-light fs-1"/>}
-            description={"Softcygnus experts creating a product that is easy to use, easy to interact with, and accessible for the users while putting their feelings first, based on a long-term and short-term scale."}  
-          />
-        </div>
-      </div>
       </section>
       <section className="position-relative bg-dark py-5">
         <span className="position-absolute top-0 start-0 w-100 h-100"></span>
         <div className="container position-relative zindex-5 text-center my-xl-3 py-1 py-md-4 py-lg-5">
-          <p className="lead text-light opacity-70 mb-3">Ready to get started?</p>
-          <h2 className="h1 text-light pb-3 pb-lg-0 mb-lg-5">Launch Your Project with Us</h2>
-          <a href="#!" className="btn btn-primary shadow-primary btn-lg">Work with us</a>
+          <p className="lead text-light opacity-70 mb-3">
+            Ready to get started?
+          </p>
+          <h2 className="h1 text-light pb-3 pb-lg-0 mb-lg-5">
+            Launch Your Project with Us
+          </h2>
+          <a href="#!" className="btn btn-primary shadow-primary btn-lg">
+            Work with us
+          </a>
         </div>
       </section>
-       {/* <div className='container'>
+      {/* <div className='container'>
        <div className="row p-5 mb-4 rounded-3">
        <div className="col-md-7">
          <h2 className="featurette-heading">First featurette heading. <span className="text-muted">It’ll blow your mind.</span></h2>
@@ -126,7 +205,7 @@ const Contant = () => {
        </div>
      </div> */}
 
-     {/* <div className="container  marketing p-5 mb-4 rounded-3 bg-light" >
+      {/* <div className="container  marketing p-5 mb-4 rounded-3 bg-light" >
        <div className='row'>
          <div className="col-lg-4 text__justify">
            <h2 className='text-center'>Expertise</h2>
@@ -144,10 +223,8 @@ const Contant = () => {
          </div>
        </div>
      </div> */}
-     
-  
 
-{/* 
+      {/* 
      <div className="container   marketing p-5 mb-4 rounded-3 bg-light">
        <div className='row'>
          <div className="col-md-6">
@@ -166,9 +243,8 @@ const Contant = () => {
          </div>
        </div>
      </div> */}
-               
     </>
-  )
-}
+  );
+};
 
-export default Contant
+export default Contant;
