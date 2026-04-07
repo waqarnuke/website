@@ -175,6 +175,10 @@ const Contant = () => {
               description={
                 "Boost your online visibility and attract more customers with our expert SEO services. SoftCygnus optimizes your website with targeted keywords, technical improvements, on-page and off-page strategies to improve search engine rankings. We help drive organic traffic, increase brand awareness, and generate quality leads for your business."
               }
+              button={{
+                text: "More",
+                link: "/seo-services",
+              }}
             />
           </div>
         </div>

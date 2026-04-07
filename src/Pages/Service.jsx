@@ -24,7 +24,8 @@ const Service = () => {
                       icon={val.icon}   // ✅ changed
                       title={val.name} // ✅ fixed typo (titile → title)
                       description={val.description}
-                      features={val.features} // ✅ added features prop 
+                      features={val.features} // ✅ added features prop
+                      link={val.link} 
                     />
                   );
                 })

@@ -1,6 +1,8 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-const Card = ({ icon, title, description, features }) => {
+
+const Card = ({ icon, title, description, features, link }) => {
   return (
     <div className='col-md-4 col-sm-6 col-12'>
       <div className="card h-100 border-0 shadow-sm service-card">
@@ -27,6 +29,14 @@ const Card = ({ icon, title, description, features }) => {
                   <li key={index} className="mb-1">✔ {item}</li>
                 ))}
               </ul>
+            </div>
+          )}
+
+          {link && (
+            <div className="mt-3">
+              <NavLink to={link} className="btn btn-primary btn-sm rounded-pill px-3">
+                More
+              </NavLink>
             </div>
           )}
 

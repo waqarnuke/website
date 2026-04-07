@@ -9,7 +9,7 @@ import './index.css';
 import { Routes, Route } from 'react-router-dom';
 
 import {Navbar,Strap,Footer} from './Component';
-import {Home, About, Contact, Service } from './Pages';
+import {Home, About, Contact, Service, SeoServices } from './Pages';
 import ScrollToTop from './core/ScrollToTop';
 
 const App = () => {
@@ -25,6 +25,7 @@ const App = () => {
        <Route path="About" element={<About />} />
        <Route path="Service" element={<Service />} />
        <Route path="Contact"  element={<Contact />} />
+       <Route path="/seo-services" element={<SeoServices />} />
        <Route path="*"/>
        
       </Route>
