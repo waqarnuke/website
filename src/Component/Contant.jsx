@@ -1,4 +1,3 @@
-import React from "react";
 import Service from "./Service";
 import {
   AiOutlineHtml5,
@@ -177,7 +176,7 @@ const Contant = () => {
               }
               button={{
                 text: "More",
-                link: "/seo-services",
+                link: "/Seoservices",
               }}
             />
           </div>

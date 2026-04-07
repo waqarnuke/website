@@ -24,7 +24,7 @@ const Service = () => {
                       title={val.name} // ✅ fixed typo (titile → title)
                       description={val.description}
                       features={val.features} // ✅ added features prop
-                      link={val.link} 
+                      navigateUrl={val.navigateUrl} 
                     />
                   );
                 })
