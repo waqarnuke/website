@@ -69,7 +69,7 @@ const Sdata = [
     name: 'Search Engine Optimization (SEO)',
     icon: <AiOutlineSearch className="fs-1 text-primary" />,
     description: 'Increase your online visibility and attract the right audience with our result-driven SEO strategies. We optimize your website through keyword targeting, technical improvements, and content strategies to boost rankings, drive organic traffic, and generate high-quality leads.',
-    link: '/seo-services'
+    link: '/Seoservices'
   },
   {
     id: 9,
