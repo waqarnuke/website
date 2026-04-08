@@ -7,10 +7,7 @@ import {
   AiOutlineBarChart,
   AiOutlineBulb,
   AiOutlineBuild,
-  AiOutlineLineChart,
-  AiOutlineEnvironment,
-  AiOutlinePhone,
-  AiOutlineMail,
+  AiOutlineLineChart
 } from "react-icons/ai";
 import "./SeoServices.css";
 
