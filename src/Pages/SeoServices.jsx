@@ -25,10 +25,7 @@ const SeoServices = () => {
             Grow Your Business with Professional SEO Services
           </p>
           <p className="mx-auto" style={{ maxWidth: "700px" }}>
-            We help businesses improve their online visibility, rank higher on
-            search engines, and attract targeted traffic that converts into real
-            customers. Our SEO strategies are tailored to your business goals
-            and designed for long-term growth.
+            Boost your online presence and drive targeted traffic to your website with our expert SEO services. We help businesses rank higher on search engines like Google, attract quality leads, and increase conversions through proven strategies.
           </p>
         </div>
       </section>
@@ -46,24 +43,24 @@ const SeoServices = () => {
                 desc: "We optimize your website structure, meta tags, headings, and internal linking to improve search engine visibility and user experience.",
               },
               {
-                icon: <AiOutlineLink />,
-                title: "Off-Page SEO",
-                desc: "We build high-quality backlinks from authoritative websites to improve your domain authority and boost rankings.",
-              },
-              {
                 icon: <AiOutlineTool />,
                 title: "Technical SEO",
-                desc: "We enhance website speed, mobile responsiveness, indexing, and fix technical issues that affect performance.",
+                desc: "We improve your website performance, speed, mobile-friendliness, and indexing for better rankings.",
               },
               {
                 icon: <AiOutlineFileText />,
                 title: "Content Optimization",
-                desc: "We create and optimize SEO-friendly content that engages users and ranks well on search engines.",
+                desc: "We create SEO-friendly content that matches user intent and drives engagement.",
               },
               {
                 icon: <AiOutlineBarChart />,
                 title: "SEO Audit",
-                desc: "Comprehensive analysis of your website to identify issues, opportunities, and actionable improvements.",
+                desc: "We provide detailed audits to identify issues and optimize your SEO strategy.",
+              },
+              {
+                icon: <AiOutlineLink />,
+                title: "Off-Page SEO",
+                desc: "We build high-quality backlinks from authoritative websites to improve your domain authority and boost rankings.",
               },
             ].map((item, i) => (
               <div className="col-md-4" key={i}>
@@ -79,6 +76,49 @@ const SeoServices = () => {
       </section>
 
       {/* MANUAL SEO */}
+      <section className="py-5 bg-light">
+        <div className="container">
+          <div className="p-4 p-md-5 bg-white rounded shadow-sm">
+            <h3 className="fw-bold mb-3">🔗 Off-Page SEO (Link Building)</h3>
+            <p className="text-muted">
+              We are committed to ethical and professional SEO practices. Please note that we do not provide services for websites or content related to:
+            </p>
+            <ul>
+              <li><b>Guest Posting:</b> Publishing high-quality articles on relevant websites with backlinks</li>
+              <li><b>PBN Links (Private Blog Network):</b> Carefully managed network links to boost </li>
+              <li><b>Web 2.0 Links:</b> Creating content on web platforms to point backlinks to your site</li>
+              <li><b>Blog Commenting:</b> Adding relevant comments on niche blogs for contextual backlinks</li>
+              <li><b>Niche Blog Comments:</b> Targeted commenting on industry-specific blogs for better relevance</li>
+              <li><b>Forum Submission:</b> Participating in forums and adding valuable links in discussions</li>
+              <li><b>Profile Creation:</b> Creating profiles on trusted platforms with your website link</li>
+              <li><b>Article Submission:</b> Submitting content to high-quality directories for exposure</li>
+              <li><b>Social Bookmarking:</b> Sharing content on bookmarking platforms for indexing and traffic</li>
+              <li><b>Sidebar Links:</b> Placing your website link in the sidebar section of relevant blogs or websites to gain consistent visibility and authority</li>
+            </ul>
+            <p className="text-muted mb-0">
+              We focus on quality, relevance, and safe SEO practices to ensure long-term growth and stability.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="py-5 bg-light">
+        <div className="container">
+          <div className="p-4 p-md-5 bg-white rounded shadow-sm">
+            <h3 className="fw-bold mb-3">🚫 Service Policy & Restrictions</h3>
+            <p className="text-muted">
+              We are committed to ethical and professional SEO practices. Please note that we do not provide services for websites or content related to:
+            </p>
+            <ul>
+              <li>Adult content or pornography</li>
+              <li>Illegal activities or harmful content</li>
+              <li>Any content that violates search engine guidelines or policies</li>
+            </ul>
+            <p className="text-muted mb-0">
+              We reserve the right to refuse service to any website that does not meet our quality and ethical standards.
+            </p>
+          </div>
+        </div>
+      </section>
       <section className="py-5 bg-light">
         <div className="container">
           <div className="p-4 p-md-5 bg-white rounded shadow-sm">
@@ -150,61 +190,6 @@ const SeoServices = () => {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CONTACT */}
-      <section className="py-5">
-        <div className="container">
-          <div className="text-center mb-5">
-            <h3 className="fw-bold">Contact Us</h3>
-            <p className="text-muted">
-              Ready to boost your rankings and grow your business? <br />
-              Get in touch with us for your SEO and IT needs
-            </p>
-          </div>
-
-          <div className="d-flex justify-content-center">
-            <div
-              className="contact-card text-center p-5 shadow-sm"
-              style={{ maxWidth: "500px", width: "100%", borderRadius: "12px" }}
-            >
-              <div className="mb-4">
-                <AiOutlineEnvironment className="fs-2 text-primary mb-2" />
-                <h5>Address</h5>
-                <p className="text-muted mb-0">
-                  100 Glenborough Dr Suite 544 <br />
-                  Houston, TX 77067
-                </p>
-              </div>
-
-              <hr />
-
-              <div className="mb-4">
-                <AiOutlinePhone className="fs-2 text-primary mb-2" />
-                <h5>Phone</h5>
-                <a
-                  href="tel:+13463184150"
-                  className="text-muted text-decoration-none"
-                >
-                  +1 (346) 318 4150
-                </a>
-              </div>
-
-              <hr />
-
-              <div>
-                <AiOutlineMail className="fs-2 text-primary mb-2" />
-                <h5>Email</h5>
-                <a
-                  href="mailto:contactus@softcygnus.com"
-                  className="text-muted text-decoration-none"
-                >
-                  contactus@softcygnus.com
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
