@@ -7,6 +7,7 @@ import {
   AiOutlineRobot,
   AiOutlineCustomerService,
   AiOutlineSearch,
+  AiOutlineCode,
 } from "react-icons/ai";
 import { BsMicrosoft } from "react-icons/bs";
 import { SiGooglemybusiness } from "react-icons/si";
@@ -179,6 +180,17 @@ const Contant = () => {
                 link: "/Seoservices",
               }}
             />
+            <Service
+              title={"Veeva CLM & Approved Email Development"}
+              ico={<AiOutlineCode className="text-light fs-1" />}
+              description={
+                "Soft Cygnus supports agencies and life sciences teams with Veeva CLM and Approved Email HTML development. We deliver clean, responsive, and production-ready assets for new builds, updates, migrations, and ongoing content support."
+              }
+              button={{
+                text: "More",
+                link: "/VeevaServices",
+              }}
+            />
           </div>
         </div>
       </section>
@@ -191,7 +203,7 @@ const Contant = () => {
           <h2 className="h1 text-light pb-3 pb-lg-0 mb-lg-5">
             Launch Your Project with Us
           </h2>
-          <a href="#!" className="btn btn-primary shadow-primary btn-lg">
+          <a href="/Contact" className="btn btn-primary shadow-primary btn-lg">
             Work with us
           </a>
         </div>

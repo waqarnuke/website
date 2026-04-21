@@ -12,6 +12,7 @@ import {
   AiOutlineRocket,
   AiOutlineUser,
   AiOutlineHtml5,
+  AiOutlineCode
 } from "react-icons/ai";
 import { BsMicrosoft } from "react-icons/bs";
 
@@ -107,6 +108,20 @@ const Sdata = [
     icon: <AiOutlineHtml5 className="fs-1 text-primary" />,
     description: 'Deliver exceptional user experiences with intuitive and user-friendly designs. Our UX experts focus on usability, accessibility, and engagement to create digital products that users love and businesses benefit from.',
   },
+  {
+  id: 15,
+  name: 'Veeva CLM & Approved Email Development',
+  icon: <AiOutlineCode className="fs-1 text-primary" />,
+  description: 'Soft Cygnus provides specialized Veeva HTML development support for agencies and life sciences teams. We build and update Veeva CLM presentations and Approved Emails with clean, responsive, and production-ready code aligned to agency timelines.',
+  features: [
+    'Veeva CLM interactive presentation development',
+    'Veeva Approved Email HTML builds',
+    'Content updates, revisions, and migrations',
+    'QA review and delivery-ready support',
+    'Flexible agency partnership model'
+  ],
+  navigateUrl: '/VeevaServices'
+}
 ];
 
 export default Sdata;
